@@ -1,9 +1,11 @@
 {
-  "gating": false,
+  "gating": true,
   "store_id": 0,
+  "product_ids": [],
   "checkout_monthly": "",
   "checkout_yearly": "",
-  "pricing_url": "https://eeleenchus.github.io/#pricing",
-  "latest": "3.0.0",
-  "download_url": "https://eeleenchus.github.io/#download"
+  "pricing_url": "https://eeleenchus.github.io/pricing.html",
+  "latest": "4.0.0",
+  "download_url": "https://eeleenchus.github.io/download.html",
+  "terms_version": "2026-11-01"
 }
