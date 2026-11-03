@@ -76,8 +76,8 @@
         buy.classList.add('lemonsqueezy-button'); buy.removeAttribute('data-pending');
         const s = document.createElement('script'); s.src = 'https://app.lemonsqueezy.com/js/lemon.js'; s.defer = true; document.head.appendChild(s);
       }
-      set($('[aria-pressed="true"]', bill)?.dataset.p || 'yearly');
-    }).catch(() => set('yearly'));
+      set($('[aria-pressed="true"]', bill)?.dataset.p || 'monthly');
+    }).catch(() => set('monthly'));
   }
 
   // ── downloads: recommend the right build ──
