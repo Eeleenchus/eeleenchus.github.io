@@ -18,8 +18,8 @@
 <link rel="apple-touch-icon" href="img/apple-touch-icon.png">
 <link rel="preload" href="fonts/source-serif-4-latin-600-normal.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="fonts/source-serif-4-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="stylesheet" href="assets/site.css?v=1793652446">
-<script src="assets/site.js?v=1793652446" defer></script>
+<link rel="stylesheet" href="assets/site.css?v=1793828298">
+<script src="assets/site.js?v=1793828298" defer></script>
 </head>
 <body>
 <div class="rail" aria-hidden="true"></div>
@@ -42,7 +42,7 @@
 </header>
 <main id="main">
 <div class="wrap doc-layout" style="grid-template-columns:minmax(0,1fr);padding-top:56px"><article class="prose" style="margin:0 auto"><nav class="legal-nav" aria-label="Legal documents"><a href="terms.html">Terms of Service</a><a href="eula.html">License Agreement</a><a href="privacy.html" aria-current="page">Privacy Policy</a><a href="refunds.html">Refunds and cancellation</a><a href="third-party.html">Open-source notices</a></nav><h1>Privacy Policy</h1>
-<p class="meta"><strong>Effective date: November 1, 2026</strong></p>
+<p class="meta"><strong>Effective date: November 4, 2026</strong></p>
 <p>This Privacy Policy explains what personal data is processed when you use Elenchus: the desktop application (the "Software"), the website at eeleenchus.github.io (the "Website") and our support. The person responsible for your data (the data controller) is <strong>Benjamín Saavedra Álvarez</strong>, Santiago, Chile, eeleenchus@gmail.com ("we", "us").</p>
 <h2>1. The short version</h2>
 <ul>
@@ -116,9 +116,10 @@
 <p>Your case files are protected by the security of your own computer; we recommend full-disk encryption (FileVault on Mac, BitLocker on Windows).</p>
 <p>The Software:
 - runs its interface in a sandbox without access to your system;
-- blocks scripts embedded in case files;
-- encrypts the stored license with your operating system's keychain;
-- talks to our services only over HTTPS.</p>
+- blocks scripts embedded in case files, and never loads images or other content from the internet inside a case;
+- connects to only two places, both over HTTPS: our Website, to read a configuration file that contains nothing about you, and Lemon Squeezy's license server, to which it sends only your license key and the words "Elenchus (macOS)" or "Elenchus (Windows)";
+- stores your license on Windows encrypted with Windows Data Protection, and on Mac in a settings file only your user account can read. It never asks for your computer's password or uses your Keychain.</p>
+<p>The Software contains no code that can read, copy or send your case files anywhere, and we have no way to access them remotely.</p>
 <h2>6. Your rights</h2>
 <p>Depending on where you live, you have rights over your personal data. These include the rights of access, rectification, deletion, objection and portability (for example under Chilean Law No. 19,628, the EU and UK GDPR, or Californian law). You can also withdraw consent where we rely on it, and lodge a complaint with your data-protection authority.</p>
 <p>To exercise them, write to eeleenchus@gmail.com. We will answer within the time the law requires, and in any case within 30 days. Because we do not hold your case files, a request about them cannot be fulfilled by us: you control them directly on your computer.</p>
